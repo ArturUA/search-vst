@@ -1,0 +1,97 @@
+@media screen and (max-width: 1604px) {
+	body {
+		width: 70%;
+		height: 100%;
+	}
+
+	.leader-text {
+		display: flex;
+		justify-content: center;
+		font-size: 80px;
+		width: 50%;
+		margin-left: 50%;
+		box-sizing: border-box;
+	}
+
+	.main-block {
+		float: left;
+		width: 100%;
+		height: 550px;
+	}
+	
+	.main-in {
+		margin-top: 50px;
+	}
+
+	.form-for-btn-cls {
+		margin-top: -30px;
+	}
+}
+
+@media screen and (max-width: 863px) {
+	.main-inputs input::placeholder {
+		font-size: 15px;
+	}
+
+	.main-inputs input {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 758px) {
+	.main-block {
+		height: 700px;
+	}
+}
+
+@media screen and (max-width: 719px) {
+	.main-buttons  {
+		margin-top: -20px;
+	}
+
+	.main-buttons button {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	.result p {
+		font-size: 20px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	.radio-btns {
+	width: 80%;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.main-block {
+		height: 700px;
+	}
+
+	.radio-btns {
+	width: 80%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.result p {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.main-button {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.main-buttons button {
+		padding: 10px;
+		width: 70%;
+
+	}
+}
