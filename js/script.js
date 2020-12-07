@@ -1,23 +1,23 @@
 window.onload = () => {
-  var radioV = document.getElementById('radio-v');
-  var radioS = document.getElementById('radio-s');
-  var radioT = document.getElementById('radio-t');
+  let radioV = document.getElementById('radio-v');
+  let radioS = document.getElementById('radio-s');
+  let radioT = document.getElementById('radio-t');
 
-  var speedBlock = document.getElementById('speed');
-  var timeBlock = document.getElementById('time');
-  var distanceBlock = document.getElementById('distance');
+  let speedBlock = document.getElementById('speed');
+  let timeBlock = document.getElementById('time');
+  let distanceBlock = document.getElementById('distance');
 
-  var resultButton = document.getElementById('btn-res');
-  var clearButton = document.getElementById('btn-clear');
+  let resultButton = document.getElementById('btn-res');
+  let clearButton = document.getElementById('btn-clear');
 
-  var resultBlock = document.getElementById('result_');
+  let resultBlock = document.getElementById('result_');
 
   resultButton.onclick = () => {
-    var result;
-    var speed = speedBlock.value;
-    var time = timeBlock.value;
-    var distance = distanceBlock.value;
-    var radioAll = document.getElementsByName('radio-btn');
+    let result;
+    let speed = speedBlock.value;
+    let time = timeBlock.value;
+    let distance = distanceBlock.value;
+    let radioAll = document.getElementsByName('radio-btn');
 
     if((speed == "") && (time == "") && (distance == "")){
       resultBlock.innerHTML = "Please enter values";
